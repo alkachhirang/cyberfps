@@ -21,7 +21,8 @@ function Header() {
         <div>
           <Container className="custum_container py-2">
             <div className="d-flex align-items-center justify-content-between">
-              <img src={navlogo} alt="navLogo" className="w-100 mw_128 h-100" />
+              <a href=''>
+                <img src={navlogo} alt="navLogo" className="w-100 mw_128 h-100" /></a>
               <ul
                 id="navbar"
                 className="d-flex gap-4 mb-0 flex-column list-unstyled flex-xl-row justify-content-center align-items-center mobile_view z_index_3"
@@ -35,7 +36,7 @@ function Header() {
                     About
                   </Link>
                 </li>
-                <li className="link">
+                <li className="link hover_border position-relative">
                   <Link
                     onClick={opennav}
                     to="/CryptoStraps"
@@ -44,7 +45,7 @@ function Header() {
                     CryptoStraps
                   </Link>
                 </li>
-                <li className="link">
+                <li className="link hover_border position-relative">
                   <Link
                     onClick={opennav}
                     to="/Team"
@@ -53,7 +54,7 @@ function Header() {
                     Team
                   </Link>
                 </li>
-                <li className="link">
+                <li className="link hover_border position-relative">
                   <Link
                     onClick={opennav}
                     to="Faq"
@@ -62,7 +63,7 @@ function Header() {
                     Faq
                   </Link>
                 </li>
-                <li className="link">
+                <li className="link hover_border position-relative">
                   <Link
                     onClick={opennav}
                     to="Footer"
@@ -73,8 +74,8 @@ function Header() {
                 </li>
               </ul>
               <div className="d-flex align-items-baseline nav_button gap-2 d-none d-sm-block">
-                <Twitter/>
-                <Instagram/>
+                <Twitter />
+                <Instagram />
                 <Discord />
               </div>
               <div
@@ -97,7 +98,8 @@ function Header() {
               sm={12}
               lg={6}
               xl={5}
-              className="d-flex flex-column justify-content-lg-start justify-content-center align-items-center pb-4"
+              className="d-flex flex-column justify-content-lg-start justify-content-center align-items-center pb-4
+              "data-aos="fade-right"
             >
               <img
                 src={Headerlogo}
@@ -127,7 +129,7 @@ function Header() {
               sm={10}
               lg={5}
               xl={6}
-              className="d-flex flex-column justify-content-lg-start justify-content-center align-items-center"
+              className="d-flex flex-column justify-content-lg-start justify-content-center align-items-center" data-aos="fade-up"
             >
               <img
                 src={Menimg}
@@ -143,3 +145,4 @@ function Header() {
 }
 
 export default Header
+

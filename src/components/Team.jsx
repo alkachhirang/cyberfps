@@ -45,13 +45,13 @@ function Team() {
     return (
         <div>
             <div className="py_team">
-                <h2 className="text-center ff_audiowide fs_64 fw-normal lh_normal text-black mb-5 pb-2">
+                <h2 className="text-center ff_audiowide fs_64 fw-normal lh_normal text-black mb-5 pb-2" data-aos="fade-down">
                     <span className="team_line position-relative">Team</span>
                 </h2>
                 <Container className="custom_container">
                     <Slider {...settings}>
-                        <div className="px-2 outline">
-                            <img src={Collin} alt="GirlWithBlackJacket" className="w-100" />
+                        <div className="px-2 outline" data-aos="zoom-out-down">
+                            <img src={Collin} alt="GirlWithBlackJacket" className="w-100 teamImg" />
                             <h4 className="ff_Montserrat fs_24 fw-semibold lh_normal text-black mt-3 mb-1">
                                 Collin
                             </h4>
@@ -59,8 +59,8 @@ function Team() {
                                 Founder
                             </p>
                         </div>
-                        <div className="px-2 outline">
-                            <img src={Pharaox} alt="GirlWithBlackJacket" className="w-100" />
+                        <div className="px-2 outline" data-aos="zoom-out-down">
+                            <img src={Pharaox} alt="GirlWithBlackJacket" className="w-100 teamImg" />
                             <h4 className="ff_Montserrat fs_24 fw-semibold lh_normal text-black mt-3 mb-1">
                                 Pharaox
                             </h4>
@@ -68,8 +68,8 @@ function Team() {
                                 Founder
                             </p>
                         </div>
-                        <div className="px-2 outline">
-                            <img src={Zach} alt="GirlWithBlackJacket" className="w-100" />
+                        <div className="px-2 outline" data-aos="zoom-out-down">
+                            <img src={Zach} alt="GirlWithBlackJacket" className="w-100 teamImg" />
                             <h4 className="ff_Montserrat fs_24 fw-semibold lh_normal text-black mt-3 mb-1">
                                 Zach
                             </h4>
@@ -77,8 +77,8 @@ function Team() {
                                 CM
                             </p>
                         </div>
-                        <div className="px-2 outline">
-                            <img src={Arlen} alt="GirlWithBlackJacket" className="w-100" />
+                        <div className="px-2 outline" data-aos="zoom-out-down">
+                            <img src={Arlen} alt="GirlWithBlackJacket" className="w-100 teamImg" />
                             <h4 className="ff_Montserrat fs_24 fw-semibold lh_normal text-black mt-3 mb-1">
                                 Arlen
                             </h4>

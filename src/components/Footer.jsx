@@ -9,9 +9,9 @@ function Footer() {
     <div>
       <div className='footer-bg_img pb-4 pt-5 mb-2'>
         <div className='text-center pb-5'>
-          <img src={footerlogo} alt='footerlogo' className='' />
+          <img src={footerlogo} alt='footerlogo' className='' data-aos="fade-down" />
 
-          <div className='pt-3'>
+          <div className='pt-3' data-aos="fade-down">
             <a href=''>
               <Twitter/>
             </a>

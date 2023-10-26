@@ -1,3 +1,4 @@
+import React, { useEffect } from "react";
 import './App.css';
 import { Route, Routes } from 'react-router-dom';
 import Header from "./components/Header";
@@ -8,9 +9,22 @@ import Team from './components/Team';
 import Faq from './components/Faq';
 import Solana from './components/Solana';
 import Footer from "./components/Footer";
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+import Aos from 'aos';
+
 
 
 function App() {
+  useEffect(() => {
+    AOS.init(
+      {
+        once: true,
+        duration: 1200
+      }
+    );
+    Aos.refresh()
+  });
   return (
     <div className='App'>
       <Routes>

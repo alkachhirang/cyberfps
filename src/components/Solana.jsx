@@ -10,10 +10,10 @@ function Solana() {
                 <Container>
                     <div className=' text-center d-flex flex-column flex-md-row justify-content-center'>
                         <div>
-                            <img src={Solanaimg} alt='solanaimg' className='w-100 mw_385 mh_255 me-md-4 me-0' />
+                            <img src={Solanaimg} alt='solanaimg' className='w-100 mw_385 mh_255 me-md-4 me-0' data-aos="fade-right" />
                         </div>
                         <div>
-                            <img src={Unread} alt='Unread' className='w-100 mw_263 mh_255 mt-md-0 mt-4' />
+                            <img src={Unread} alt='Unread' className='w-100 mw_263 mh_255 mt-md-0 mt-4' data-aos="fade-left" />
                         </div>
                     </div>
                 </Container>
