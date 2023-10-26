@@ -7,7 +7,7 @@ import { Playbtn } from './IconImg';
 function about() {
     return (
         <div>
-            <Container className="custum_container py_about">
+            <Container className="custom_container py_about">
                 <h2 className="fs_64 ff_audiowide fw-normal text-center Cyberfps position-relative gameplay" data-aos="fade-down">
                     CyberFPS <span className="text-teal">Gameplay</span>
                 </h2>

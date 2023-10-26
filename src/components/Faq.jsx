@@ -8,7 +8,7 @@ function Faq() {
     return (
         <div>
             <div className='bg-black pb-5 pt-4'>
-                <Container className='pb-lg-5 pt-xl-4 Container-custom '>
+                <Container className='pb-lg-5 pt-xl-4 custom_container '>
                     <h3 className='fs_64 fw-normal ff_audiowide text-white text-center pt-4  mt-2 position-relative' data-aos="fade-down">Faq</h3>
                     <div className='faq_line text-center d-none d-lg-block'></div>
                     <Accordion className='mx-auto pb-xl-5 mt-lg-5 pt-lg-5 pt-4' data-aos="fade-right">

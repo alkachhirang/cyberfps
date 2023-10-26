@@ -19,7 +19,7 @@ function Header() {
     <div>
       <div className="header_bg_img">
         <div>
-          <Container className="custum_container py-2">
+          <Container className="custom_container py-2">
             <div className="d-flex align-items-center justify-content-between">
               <a href=''>
                 <img src={navlogo} alt="navLogo" className="w-100 mw_128 h-100" /></a>
